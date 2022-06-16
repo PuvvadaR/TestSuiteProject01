@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="TestSuite01">
+    <webMethodsTestCase name="TestCase01_Success">
+        <service folder="TestKoushik.wmTestSuite" name="executeEvent">
+            <input>
+                <file filename="src/data/Input01.xml"/>
+            </input>
+            <expected>
+                <file filename="src/data/Output01.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="TestCase02_VFSFailure">
+        <service folder="TestKoushik.wmTestSuite" name="executeEvent">
+            <input>
+                <file filename="src/data/Input02.xml"/>
+            </input>
+            <expected>
+                <file filename="src/data/Output02.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="In this test case we are repointing the VFS to local folders and testing the event." name="TestCase03_SucessTest">
+        <service folder="TestKoushik.POC" name="executeEvent">
+            <input>
+                <file filename="src/data/Input03.xml"/>
+            </input>
+            <expected>
+                <file filename="src/data/Output03.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

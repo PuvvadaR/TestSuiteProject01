@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="eventName">MK_RTL_TND_INT103_001_SALESINVENTORY_MMS</value>
+    <value name="changeVFS">Y</value>
+    <array name="vfsDetails" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="vfsPath">/Retail/TND/Inbound/SFTP/TND/</value>
+        <value name="vfsName">TND</value>
+        <value name="localFilePath">File:///esb/data/</value>
+        <value name="vfsType">Local</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="vfsPath">/Retail/MMS/Outbound/SFTP/ESB-JAPAN3PL-INBOUND-DLYSTK/</value>
+        <value name="vfsName">ESB-JAPAN3PL-INBOUND-DLYSTK</value>
+        <value name="localFilePath">File:///esb/data/</value>
+        <value name="vfsType">Local</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>

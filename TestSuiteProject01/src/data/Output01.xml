@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <record name="Response" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="message">The scheduled event 'MK_RTL_TND_INT103_001_SALESINVENTORY_MMS' is executed successfully.</value>
+    </record>
+  </record>
+</IDataXMLCoder>

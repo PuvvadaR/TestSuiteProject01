@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="eventName">MK_RTL_TND_INT103_001_SALESINVENTORY_MMS</value>
+    <value name="changeVFS">Y</value>
+    <record name="vfsDetails" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="vfsPath">/Retail/TND/Inbound/SFTP/TND/</value>
+      <value name="vfsName">TND</value>
+      <value name="username">abcd</value>
+    </record>
+  </record>
+</IDataXMLCoder>
